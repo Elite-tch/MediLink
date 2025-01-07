@@ -11,11 +11,11 @@ const Booking = () => {
   };
 
   return (
-    <div className='mx-6'>
+    <div className='md:pt-[8%] pt-[20%]'>
       <h2 className='text-center font-bold text-2xl text-gray-700 pt-12 pb-6'>  Book Your Appointment</h2>
       
 
-<form className="pt-4">
+<form className="pt-4 mx-6">
 <div className='flex gap-8 justify-center md:flex-row flex-col md:items-start items-center'>
 <div>
 <DatePicker
