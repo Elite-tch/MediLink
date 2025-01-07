@@ -1,6 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+* @type {import('tailwindcss').Config} */
+import flowbitePlugin from 'flowbite/plugin';
+
+export default {
   content: [
     './index.html',
     "./node_modules/flowbite/**/*.js",
@@ -8,17 +9,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: "#5f6fff",
-      },
-      gridTemplateColumns: {
-        auto: 'repeat(auto-fill, minmax(200px, 1fr))',
-      },
+      colors:{
+        "primary": "#5f6fff"
+      }, 
+      gridTemplateColumns:{
+        'auto': 'repeat(auto-fill, minmax(200px, 1fr))'
+      }
     },
+  
   },
-  plugins: [
-    require('flowbite/plugin'),
+  plugins:[ 
+    flowbitePlugin
   ],
-};
-
-
+}
