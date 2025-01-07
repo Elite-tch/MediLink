@@ -10,84 +10,63 @@
 
 /*all doctors page */
 .bg-blue{
-background-color: rgb(95, 111, 255);
-
+  background-color: rgb(95, 111, 255);
 }
 .bg-blue:hover{
-  background-color: rgb(95, 111, 255, 0.9);
-  
-  
-  }
+  background-color: rgba(95, 111, 255, 0.9); /* Changed to rgba */
+}
 
-  .doctor-nav ul li a:hover{ 
-    animation: shake 0.5s ease;
-
-  }
-  @keyframes shake {
+.doctor-nav ul li a:hover{ 
+  animation: shake 0.5s ease;
+}
+@keyframes shake {
   0%{ transform: translateY(0); }
   20% { transform: translateY(-5px); }
   40% { transform: translateY(5px); }
   60% { transform: translateY(-5px); }
   80% { transform: translateY(5px); }
   100% { transform: translateY(0); }
-  }
+}
 .doctor-nav li a{
   transition: all 0.3s ease;
 }
 .doctor-hover2{
-  border-radius:2px;
-  background-color: rgb(95, 111, 255, 0.1);
-  
-  
+  border-radius: 2px;
+  background-color: rgba(95, 111, 255, 0.1); /* Changed to rgba */
 }
-
 
 .doctor-hover{
   transition: transform 0.5s ease-in-out;
-
-  
-  
 }
 
 .doctor-hover:hover{
   transform: scale(0.9); 
   background-color: white;
-  
-  
 }
 
 .available-color{
-color:rgb(22, 172, 22);
-
-
+  color: rgb(22, 172, 22);
 }
 
 .active{
-  background-color:#0EBE7F;
+  background-color: #0EBE7F;
   color: #fff;
   padding: 6px 10px;
   border-radius: 100px;
   width: fit-content;
-  }
-  .date ul li p:active, .date ul li p:hover{
-    background-color: #0EBE7F;
-    color: #fff;
-    
-    }
+}
+.date ul li p:active, .date ul li p:hover{
+  background-color: #0EBE7F;
+  color: #fff;
+}
 
-    .about{
-      transition: all 0.3s ease;
-
-    }
-    .about:hover{
-
-      background-color: #0EBE7F;
-      color: #fff;
-
-    }
-
-
-
+.about{
+  transition: all 0.3s ease;
+}
+.about:hover{
+  background-color: #0EBE7F;
+  color: #fff;
+}
 
 /* Month and year text in the header */
 .react-datepicker__current-month {
@@ -97,18 +76,14 @@ color:rgb(22, 172, 22);
   margin-bottom: 10px;
 }
 
-
-
 .react-datepicker {
-  
   border: 1px solid #ddd;
   border-radius: 8px;
-  
 }
 
 .react-datepicker__header {
   background-color: #0EBE7F;
-  color:#fff;
+  color: #fff;
 }
 
 .react-datepicker__day {
@@ -117,8 +92,7 @@ color:rgb(22, 172, 22);
   margin: 2px;
 }
 
-.react-datepicker__day-name 
-   {
+.react-datepicker__day-name {
   color: #fff; /* White text for day names */
   font-weight: bold;
   padding: 2px;
@@ -131,7 +105,6 @@ color:rgb(22, 172, 22);
 
 .react-datepicker__day--selected {
   background-color: #0EBE7F;
- 
   color: white;
 }
 
@@ -139,4 +112,3 @@ color:rgb(22, 172, 22);
   font-weight: bold;
   color: #ff4500; /* Highlight today's date in orange */
 }
-
