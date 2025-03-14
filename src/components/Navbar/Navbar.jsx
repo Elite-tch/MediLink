@@ -10,7 +10,7 @@ const Navbar = () => {
       {/* Logo */}
     <div className="flex items-center gap-2">
       <img src='/logo.png' alt="" className="w-10 h "/>
-      <h1 className=" text-2xl md:text-3xl ">Medi<span className="font-semibold">Link</span></h1>
+      <h1 className=" text-2xl md:text-3xl ">Health<span className="font-semibold">Link</span></h1>
     </div>
       {/* Desktop Menu */}
       <ul className="hidden  md:flex items-start gap-5 font-medium">
@@ -70,7 +70,7 @@ const Navbar = () => {
         <ul className="flex flex-col gap-4 px-6 pt-[20%]">
         <div className="flex items-center gap-2">
       <img src='/logo.png' alt="" className="w-10 h "/>
-      <h1 className=" text-2xl md:text-3xl ">Medi<span className="font-semibold">Link</span></h1>
+      <h1 className=" text-2xl md:text-3xl ">Health<span className="font-semibold">Link</span></h1>
     </div>
           <NavLink to="/" className="py-2" onClick={() => setShowMenu(false)}>
             Home
